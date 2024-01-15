@@ -3,3 +3,100 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
+
+.header-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* justify-content: center; */
+}
+.nav-container img{
+    width: 48px;
+    height: 56.008px;
+}
+.nav-container h3{
+color: #131318;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 10px;
+}
+.nav-container h3 span{
+color: #FF5400;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+} 
+.item-container{
+width: 50%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.item-container a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.special{
+    color: #FF5400;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-section{
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    /* background: linear-gradient(100deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+}
+.banner-form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 30px;
+}
+.banner-text h2{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-form input{
+    width: 174px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    }
+    .common-button{
+        width: 174px;
+        height: 45px;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
