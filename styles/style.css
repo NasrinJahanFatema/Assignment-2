@@ -59,12 +59,12 @@ align-items: center;
 /* ......................................................................... */
 
 .banner-section{
-    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    /* background: url(../Images/Group\ 13\ \(1\)\ \(1\).png); */
     width: 1170px;
     height: 500px;
     margin: 0 auto;
     border-radius: 15px;
-    /* background: linear-gradient(100deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    background: linear-gradient(100deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
 }
 .banner-form{
     border-radius: 8px;
@@ -105,7 +105,6 @@ line-height: 26px; /* 162.5% */
     font-size: 16px;
     padding-left: 15px;
 
-
     }
     .common-button{
         width: 174px;
@@ -119,7 +118,7 @@ line-height: 26px; /* 162.5% */
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        margin-top: 20px;
+    
     }
 /* ....................................................................................... */
 
@@ -149,7 +148,7 @@ line-height: 26px; /* 162.5% */
             font-style: normal;
             font-weight: 400;
             line-height: 26px; 
-          color: rgba(19, 19, 24, 0.70);
+           color: rgba(19, 19, 24, 0.70);
 
         }
           /* p.p-text-1{
@@ -180,7 +179,12 @@ line-height: 26px; /* 162.5% */
             width: 540px;
             height: 580px;
         }
+        .btn{
+            margin-top: 40px;
+        }
     /* ....................................................................................... */
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+
     
         .destination-section h2{
             color: #131318;
@@ -200,12 +204,13 @@ line-height: 26px; /* 162.5% */
         font-weight: 400;
         line-height: 26px; /* 162.5% */
         }
-        img{
-            width: 560px;
-            height: 300px;
-             border-radius: 16px;
-             background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-           }
+
+        /* img{
+        width: 560px;
+        height: 300px;
+        border-radius: 16px;
+        /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;  */
+     } */
        .row-1{
         margin: 50px 80px;
         display: flex; 
@@ -342,7 +347,15 @@ line-height: 26px; /* 162.5% */
         background: rgba(233, 68, 68, 0.05); 
         }
 
-
-
+/* ........................................................... */
+.row-2 .image-7{
+    position: relative;
+}
+.image-7 p{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
      
     
