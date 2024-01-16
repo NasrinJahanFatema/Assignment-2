@@ -68,17 +68,36 @@ align-items: center;
 .banner-form{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    display: inline-flex;
     padding: 16px;
-    align-items: flex-start;
     gap: 30px;
+    margin: 0 auto;
+    width: 768px;
+    /* align-items: flex-start; */
+    display: flex;
+justify-content: space-between;
+
 }
+
+
+
+
+
 .banner-text h2{
     color: #FFF;
-    font-size: 64px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    text-align: center;
+    padding-top: 100px;
+}
+.banner-text p{
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
 }
 .banner-form input{
     width: 174px;
@@ -86,6 +105,10 @@ align-items: center;
     border-radius: 8px;
     background: #FFF;
     border: none;
+    /* margin-right: 0 auto; */
+    font-size: 16px;
+
+
     }
     .common-button{
         width: 174px;
@@ -100,3 +123,86 @@ align-items: center;
         font-weight: 700;
         line-height: normal;
     }
+
+    .popular-tour-section{
+        display: flex;
+        align-items: center;
+       margin-top: 70px;
+       }
+        
+        .tour-text h3{
+            color: #131318;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            margin-bottom: 50px;
+        }
+        .tour-text{
+            width: 50%;
+           margin-left: 70px;
+            
+        }
+        p.p-text-1{
+          width: 520px;
+        }
+        
+        .p-text-1{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */
+            color: rgba(19, 19, 24, 0.70);
+        }
+        .p-text-2{
+            color: #5A5A5D;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */
+    
+        }
+        .tour-image{
+            width: 50%;
+           
+        }
+         img{
+            width: 540px;
+            height: 550px;
+        }
+    
+    
+        .destination-section h2{
+            color: #131318;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+        .destination-section p{
+    
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        }
+        .facilities-section h2{
+            color: #131318;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+        .facilities-section p{
+            color: rgba(19, 19, 24, 0.70);
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */  
+        }
+    
