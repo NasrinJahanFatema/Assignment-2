@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 body{
     font-family: 'Mulish', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .header-section{
@@ -14,7 +16,6 @@ body{
     display: flex;
     align-items: center;
     width: 50%;
-    /* justify-content: center; */
 }
 .nav-container img{
     width: 48px;
@@ -59,7 +60,6 @@ align-items: center;
 /* ......................................................................... */
 
 .banner-section{
-    /* background: url(../Images/Group\ 13\ \(1\)\ \(1\).png); */
     width: 1170px;
     height: 500px;
     margin: 0 auto;
@@ -73,7 +73,6 @@ align-items: center;
     gap: 30px;
     margin: 0 auto;
     width: 768px;
-    /* align-items: flex-start; */
     display: flex;
     justify-content: space-between;
 
@@ -93,7 +92,7 @@ text-align: center;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 26px; /* 162.5% */
+line-height: 26px; 
 }
 .banner-form input{
     width: 174px;
@@ -166,7 +165,7 @@ line-height: 26px; /* 162.5% */
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 26px; /* 162.5% */
+            line-height: 26px; 
     
         }
         .tour-image{
@@ -184,7 +183,6 @@ line-height: 26px; /* 162.5% */
 
 
     .destination-section{
-         /* border: 2px solid navy;  */
          height: 500px;
     } 
         .destination-text h2{
@@ -204,7 +202,7 @@ line-height: 26px; /* 162.5% */
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 26px; /* 162.5% */
+        line-height: 26px;
         }
 
        .row-1{
@@ -340,7 +338,7 @@ line-height: 26px; /* 162.5% */
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 26px; /* 162.5% */  
+            line-height: 26px; 
         }
         .text-area{
             display: flex;
@@ -443,8 +441,24 @@ h3 span{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
 }
 .Social{
     margin-left: 600px;
+}
+hr{
+    margin-top: 50px;
+ width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+}
+p.footer-end{
+ color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+margin-top: 40px;
 }
