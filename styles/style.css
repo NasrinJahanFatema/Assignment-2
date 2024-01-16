@@ -56,6 +56,7 @@ align-items: center;
     font-weight: 800;
     line-height: normal;
 }
+/* ......................................................................... */
 
 .banner-section{
     background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -118,12 +119,15 @@ line-height: 26px; /* 162.5% */
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        margin-top: 20px;
     }
+/* ....................................................................................... */
 
     .popular-tour-section{
         display: flex;
         align-items: center;
-       margin-top: 70px;
+        margin-top: 50px;
+        
        }
         
         .tour-text h3{
@@ -137,19 +141,30 @@ line-height: 26px; /* 162.5% */
         .tour-text{
             width: 50%;
            margin-left: 70px;
+           height: 600px;
             
         }
-        p.p-text-1{
-          width: 520px;
+        .tour-text > ul li{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; 
+          color: rgba(19, 19, 24, 0.70);
+
         }
+          /* p.p-text-1{
+          width: 520px;
+        } */
         
         .p-text-1{
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 26px; /* 162.5% */
-            color: rgba(19, 19, 24, 0.70);
+            line-height: 26px;
+          color: rgba(19, 19, 24, 0.70);
+
         }
+        
         .p-text-2{
             color: #5A5A5D;
             font-size: 16px;
@@ -160,13 +175,12 @@ line-height: 26px; /* 162.5% */
         }
         .tour-image{
             width: 50%;
-           
         }
-         img{
+        .tour-image img{
             width: 540px;
-            height: 550px;
+            height: 580px;
         }
-    
+    /* ....................................................................................... */
     
         .destination-section h2{
             color: #131318;
@@ -175,6 +189,7 @@ line-height: 26px; /* 162.5% */
             font-style: normal;
             font-weight: 800;
             line-height: normal;
+            margin-top: 70px;
         }
         .destination-section p{
     
@@ -243,6 +258,7 @@ line-height: 26px; /* 162.5% */
             height: 300px;
             background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
          }
+/* ................................................................................................. */
 
         .facilities-section h2{
             color: #131318;
@@ -251,6 +267,8 @@ line-height: 26px; /* 162.5% */
             font-style: normal;
             font-weight: 800;
             line-height: normal;
+            margin-top: 70px;
+
         }
         .facilities-section p{
             color: rgba(19, 19, 24, 0.70);
@@ -260,5 +278,71 @@ line-height: 26px; /* 162.5% */
             font-weight: 400;
             line-height: 26px; /* 162.5% */  
         }
+        .text-area{
+            display: flex;
+            margin-left: 80px;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .icon{
+            width: 64px;
+            height: 64px;
+            flex-shrink: 0;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        .hotel{
+            width: 573px;
+            height: 284px;
+            border-radius: 16px;
+            border: 1px solid rgba(251, 181, 99, 0.20);
+            background: rgba(251, 181, 99, 0.05); 
+           
+        }
+       
+        .common-style{
+            color: #131318;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            margin-left: 30px;
+        }
+
+      .common-para-text{
+        width: 486px;
+        color: #5A5A5D;
+        font-size: 15px;
+        font-style: normal;
+        margin-left: 30px;
+        font-weight: 400;
+        margin-bottom: 20px;
+         line-height: 26px;  
+      }
+
+        .service{
+            width: 573px;
+            height: 284px;
+            border-radius: 16px;
+            border: 1px solid rgba(41, 206, 246, 0.20);
+            background: rgba(41, 206, 246, 0.05); 
+        }
+    
+        .single-area{
+            display: flex;
+          justify-content: center;
+          margin-top: 24px;
+        }
+        .price{
+        width: 573px;
+        height: 284px;
+        flex-shrink: 0;
+        border-radius: 16px;
+         border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05); 
+        }
+
+
+
      
     
